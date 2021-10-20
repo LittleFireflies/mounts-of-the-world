@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mounts_of_the_world/colors.dart';
 
 import 'app_header.dart';
+import 'app_search.dart';
 
 class MountsApp extends StatelessWidget {
   const MountsApp({Key? key}) : super(key: key);
@@ -41,6 +42,7 @@ class MountsApp extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: const [
           AppHeader(),
+          AppSearch(),
         ],
       ),
     );

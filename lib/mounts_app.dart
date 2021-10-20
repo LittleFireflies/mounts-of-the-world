@@ -39,7 +39,7 @@ class MountsApp extends StatelessWidget {
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
+        children: const [
           AppHeader(),
         ],
       ),

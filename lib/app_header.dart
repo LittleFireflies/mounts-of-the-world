@@ -19,7 +19,7 @@ class AppHeader extends StatelessWidget {
               fit: BoxFit.cover,
             ),
           ),
-          SizedBox(width: 16),
+          const SizedBox(width: 16),
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: const [

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'mounts_app.dart';
+
 class SplashPage extends StatelessWidget {
   const SplashPage({Key? key}) : super(key: key);
 
@@ -7,6 +9,17 @@ class SplashPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Future.delayed(
+      const Duration(seconds: 2),
+      () {
+        Navigator.pushReplacement(
+            context,
+            MaterialPageRoute(
+              builder: (context) => const MountsApp(),
+            ));
+      },
+    );
+
     return Container(
       color: mainColor,
       child: Stack(

@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 
+import 'colors.dart';
 import 'mounts_app.dart';
 
 class SplashPage extends StatelessWidget {
   const SplashPage({Key? key}) : super(key: key);
-
-  final mainColor = const Color(0xFFFF5656);
 
   @override
   Widget build(BuildContext context) {

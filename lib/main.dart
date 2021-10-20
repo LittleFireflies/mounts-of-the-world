@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mounts_of_the_world/mounts_app.dart';
 import 'package:mounts_of_the_world/splash_page.dart';
 
 void main() {
@@ -14,8 +13,8 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Mounts of The World',
-      home: MountsApp(),
-      // home: SplashPage(),
+      // home: MountsApp(),
+      home: SplashPage(),
     );
   }
 }

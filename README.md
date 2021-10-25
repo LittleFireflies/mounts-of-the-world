@@ -3,4 +3,4 @@
 Building UI Layouts in Flutter from [codelab](https://romanjustcodes.web.app/#/workshops)
 
 ## Screenshot
-![screenshot](./screenshot/screenshot.png)
+![screenshot](./screenshots/screenshot.png)
